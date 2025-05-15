@@ -27,6 +27,7 @@ const GetStarted = ({ onGetStarted }) => {
           style={{
             width: 'min(800px, 80vw)',
             maxWidth: 800,
+            height: 'auto',
             margin: '4vh auto 2vh auto',
             display: 'block',
             objectFit: 'contain',
@@ -74,6 +75,7 @@ const GetStarted = ({ onGetStarted }) => {
           style={{
             width: 'min(300px, 40vw)',
             maxWidth: 300,
+            height: 'auto',
             margin: '2vh auto 0 auto',
             display: 'block',
             objectFit: 'contain',
