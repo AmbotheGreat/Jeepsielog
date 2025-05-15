@@ -673,8 +673,7 @@ const MapComponent = () => {
             src="/Jeepsielog/logo.png" 
             alt="Jeepsielog Logo" 
             style={{ 
-              width: 'min(64px, 8vw)',
-              height: 'auto',
+              width: 'min(140px, 12vw)',
               border: 'none',
               margin: '0 8px',
               flexShrink: 0
