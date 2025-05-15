@@ -672,8 +672,13 @@ const MapComponent = () => {
           <img 
             src="/Jeepsielog/logo.png" 
             alt="Jeepsielog Logo" 
-            className="w-24 h-24" 
-            style={{ minWidth: 48, maxWidth: 96, height: 'auto', border: 'none', margin: '0 8px', flexShrink: 0 }} 
+            style={{ 
+              width: 'min(64px, 8vw)',
+              height: 'auto',
+              border: 'none',
+              margin: '0 8px',
+              flexShrink: 0
+            }} 
           />
           <h1 
             className="montserrat"

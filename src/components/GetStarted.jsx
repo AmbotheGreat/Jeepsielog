@@ -10,7 +10,7 @@ const GetStarted = ({ onGetStarted }) => {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      background: `url('/background.png') center center/cover no-repeat`,
+      background: `url('/Jeepsielog/background.png') center center/cover no-repeat`,
       boxSizing: 'border-box',
       paddingTop: '8vh',
     }}>
@@ -24,10 +24,9 @@ const GetStarted = ({ onGetStarted }) => {
         <img 
           src="/Jeepsielog/jiepsielog.png" 
           alt="Jeepsielog" 
-          className="w-32 h-32"
           style={{
-            width: 'min(1040px, 60vw)',
-            maxWidth: 1040,
+            width: 'min(800px, 80vw)',
+            maxWidth: 800,
             margin: '4vh auto 2vh auto',
             display: 'block',
             objectFit: 'contain',
@@ -72,11 +71,10 @@ const GetStarted = ({ onGetStarted }) => {
         <img
           src="/Jeepsielog/logo.png"
           alt="Logo"
-          className="w-8 h-8"
           style={{
-            width: 'min(320px, 60vw)',
-            maxWidth: 320,
-            margin: '0 auto 0 auto',
+            width: 'min(300px, 40vw)',
+            maxWidth: 300,
+            margin: '2vh auto 0 auto',
             display: 'block',
             objectFit: 'contain',
           }}
