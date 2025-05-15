@@ -149,8 +149,13 @@ const MapComponent = () => {
             });
             const center = bounds.getCenter();
 
-            // Get distance from the route
-            const distance = result.routes[0].legs[0].distance.text;
+            // Calculate total distance including all legs
+            let totalDistance = 0;
+            result.routes[0].legs.forEach(leg => {
+              totalDistance += leg.distance.value; // Get distance in meters
+            });
+            // Convert to kilometers and format
+            const distance = (totalDistance / 1000).toFixed(1) + ' km';
 
             // Use custom travel time logic with automatic weekday/weekend detection
             const originTimes = travelTimes[selectedOrigin];
