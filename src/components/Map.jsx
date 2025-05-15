@@ -855,6 +855,22 @@ const MapComponent = () => {
               top: auto !important;
               transform: none !important;
             }
+            .gm-fullscreen-control {
+              position: absolute !important;
+              top: 10px !important;
+              right: 10px !important;
+              left: auto !important;
+              bottom: auto !important;
+              transform: none !important;
+              display: block !important;
+              visibility: visible !important;
+              opacity: 1 !important;
+            }
+            .gm-fullscreen-control button {
+              display: block !important;
+              visibility: visible !important;
+              opacity: 1 !important;
+            }
           }
         `}</style>
       </GoogleMap>
