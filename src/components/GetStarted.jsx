@@ -10,7 +10,7 @@ const GetStarted = ({ onGetStarted }) => {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      background: `url('/background.png') center center/cover no-repeat`,
+      background: `url('/Jeepsielog/background.png') center center/cover no-repeat`,
       boxSizing: 'border-box',
       paddingTop: '8vh',
     }}>
