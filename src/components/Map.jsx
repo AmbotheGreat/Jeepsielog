@@ -865,11 +865,49 @@ const MapComponent = () => {
               display: block !important;
               visibility: visible !important;
               opacity: 1 !important;
+              z-index: 1000 !important;
             }
             .gm-fullscreen-control button {
               display: block !important;
               visibility: visible !important;
               opacity: 1 !important;
+              background-color: white !important;
+              border: none !important;
+              border-radius: 2px !important;
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px !important;
+              margin: 10px !important;
+              padding: 0px !important;
+              width: 40px !important;
+              height: 40px !important;
+              cursor: pointer !important;
+              user-select: none !important;
+            }
+          }
+
+          /* iOS-specific styles */
+          @supports (-webkit-touch-callout: none) {
+            .gm-fullscreen-control {
+              display: block !important;
+              visibility: visible !important;
+              opacity: 1 !important;
+              z-index: 1000 !important;
+            }
+            .gm-fullscreen-control button {
+              display: block !important;
+              visibility: visible !important;
+              opacity: 1 !important;
+              background-color: white !important;
+              border: none !important;
+              border-radius: 2px !important;
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px !important;
+              margin: 10px !important;
+              padding: 0px !important;
+              width: 40px !important;
+              height: 40px !important;
+              cursor: pointer !important;
+              user-select: none !important;
+              -webkit-appearance: none !important;
+              -webkit-tap-highlight-color: transparent !important;
             }
           }
         `}</style>
