@@ -765,7 +765,7 @@ const MapComponent = () => {
             position: window.google && window.google.maps ? window.google.maps.ControlPosition.TOP_RIGHT : 3
           },
           mapTypeControlOptions: {
-            position: window.google && window.google.maps ? window.google.maps.ControlPosition.TOP_RIGHT : 3
+            position: window.google && window.google.maps ? window.google.maps.ControlPosition.BOTTOM_LEFT : 2
           }
         }}
       >
@@ -811,6 +811,47 @@ const MapComponent = () => {
             <span style={{ color: '#222' }}>Proposed Loading/Unloading Zone</span>
           </div>
         </div>
+
+        {/* Custom styles for map controls */}
+        <style>{`
+          @media (max-width: 768px) {
+            .gm-style-moc,
+            .gm-style-mt,
+            .gm-style-mt-b,
+            .gm-style-mt-c,
+            .gm-style-mt-d,
+            .gm-style-mt-e,
+            .gm-style-mt-f,
+            .gm-style-mt-g,
+            .gm-style-mt-h,
+            .gm-style-mt-i,
+            .gm-style-mt-j,
+            .gm-style-mt-k,
+            .gm-style-mt-l,
+            .gm-style-mt-m,
+            .gm-style-mt-n,
+            .gm-style-mt-o,
+            .gm-style-mt-p,
+            .gm-style-mt-q,
+            .gm-style-mt-r,
+            .gm-style-mt-s,
+            .gm-style-mt-t,
+            .gm-style-mt-u,
+            .gm-style-mt-v,
+            .gm-style-mt-w,
+            .gm-style-mt-x,
+            .gm-style-mt-y,
+            .gm-style-mt-z,
+            .gmnoprint[style*="top: 10px"] {
+              position: absolute !important;
+              bottom: 10px !important;
+              left: 10px !important;
+              right: auto !important;
+              top: auto !important;
+              transform: none !important;
+            }
+          }
+        `}</style>
       </GoogleMap>
     </div>
   );
