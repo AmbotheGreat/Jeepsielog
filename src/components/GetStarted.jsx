@@ -22,8 +22,9 @@ const GetStarted = ({ onGetStarted }) => {
         flex: 1,
       }}>
         <img 
-          src="/jiepsielog.png" 
-          alt="JeepSIELog Logo" 
+          src="/Jeepsielog/jiepsielog.png" 
+          alt="Jeepsielog" 
+          className="w-32 h-32"
           style={{
             width: 'min(1040px, 60vw)',
             maxWidth: 1040,
@@ -69,8 +70,9 @@ const GetStarted = ({ onGetStarted }) => {
           GET STARTED
         </button>
         <img
-          src="/logo.png"
-          alt="CLSU Logo"
+          src="/Jeepsielog/logo.png"
+          alt="Logo"
+          className="w-8 h-8"
           style={{
             width: 'min(320px, 60vw)',
             maxWidth: 320,
@@ -87,7 +89,7 @@ const GetStarted = ({ onGetStarted }) => {
             justify-content: center !important;
             padding-top: 0 !important;
           }
-          img[alt='JeepSIELog Logo'] {
+          img[alt='Jeepsielog'] {
             width: 90vw !important;
             max-width: 95vw !important;
             margin: 2vh auto 1vh auto !important;
@@ -104,7 +106,7 @@ const GetStarted = ({ onGetStarted }) => {
             min-width: 0 !important;
             max-width: 100% !important;
           }
-          img[alt='CLSU Logo'] {
+          img[alt='Logo'] {
             width: 60vw !important;
             max-width: 70vw !important;
             margin: 2vw auto 0 auto !important;

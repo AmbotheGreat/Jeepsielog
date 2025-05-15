@@ -340,21 +340,21 @@ const MapComponent = () => {
     
     if (letter === 'J') {
       const img = document.createElement('img');
-      img.src = '/logo.png';
+      img.src = '/Jeepsielog/logo.png';
       img.style.width = '30px';
       img.style.height = '30px';
       img.style.objectFit = 'contain';
       pinElement.appendChild(img);
     }else if (letter === 'O') {
       const img = document.createElement('img');
-      img.src = '/logo.png';
+      img.src = '/Jeepsielog/logo.png';
       img.style.width = '30px';
       img.style.height = '30px';
       img.style.objectFit = 'contain';
       pinElement.appendChild(img);
     }else if (letter === 'D') {
       const img = document.createElement('img');
-      img.src = '/logo.png';
+      img.src = '/Jeepsielog/logo.png';
       img.style.width = '30px';
       img.style.height = '30px';
       img.style.objectFit = 'contain';
@@ -539,7 +539,7 @@ const MapComponent = () => {
             </div>
             <div style="margin-top: 4px; width: 100%;">
               <div style="display: flex; align-items: center; gap: 8px;">
-                <img src="/jeep.svg" alt="Jeep icon" style="width: 20px; height: 20px;" />
+                <img src="/Jeepsielog/jeep.svg" alt="Jeep icon" style="width: 20px; height: 20px;" />
                 <span style="color: #222; font-size: ${fontSize - 1}px; font-weight: 500;">Next jeep will arrive in about: <span style="color:rgb(40, 42, 161); font-weight: bold;">${arrivalData ? formatArrival(arrivalData.shortest) : '-'}</span> - <span style="color:rgb(40, 42, 161); font-weight: bold;">${arrivalData ? formatArrival(arrivalData.longest) : '-'}</span></span>
               </div>
             </div>
@@ -670,7 +670,7 @@ const MapComponent = () => {
           }}
         >
           <img 
-            src="/logo.png" 
+            src="/Jeepsielog/logo.png" 
             alt="Jeepsielog Logo" 
             className="w-24 h-24" 
             style={{ minWidth: 48, maxWidth: 96, height: 'auto', border: 'none', margin: '0 8px', flexShrink: 0 }} 
