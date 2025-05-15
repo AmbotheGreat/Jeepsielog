@@ -74,8 +74,8 @@ const GetStarted = ({ onGetStarted }) => {
           alt="Logo"
           className="w-8 h-8"
           style={{
-            width: 'min(320px, 60vw)',
-            maxWidth: 320,
+            width: 'min(520px, 60vw)',
+            maxWidth: 520,
             margin: '0 auto 0 auto',
             display: 'block',
             objectFit: 'contain',
